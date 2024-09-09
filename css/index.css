@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
 	background-color: #bde9e88a;
 	font-family: "Roboto", sans-serif;
@@ -13,20 +19,31 @@ body {
 }
 
 .section1 {
-    background-color: rgb(90, 65, 149);
-    height: 400px;
+    background-color: #0d1117;
+    color:rgb(235, 235, 235);
+    height: 1000px;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
 }
 
 nav {
     display: flex;
-    background-color: rgb(77, 76, 76);
-    margin: 0;
+    background-color: rgb(1,4,9);
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    height: 60px;
+    border-bottom: solid rgb(255, 255, 255, .6);
 }
 
 nav h1 {
     padding-left: 20%;
     padding-right: 1%;
+    font-size: 50px;
+    color: rgba(251, 251, 251, 0.674);
+    
+    
 }
 
 nav button {
@@ -34,12 +51,13 @@ nav button {
     background-color: rgb(46, 46, 46);
     font-size: 20px;
     padding: 10px;
+    
 }
 .b1 {
     background-color: rgb(10, 102, 194);
+    
 }
 
-.b1:
 .b3 {
     background-color: rgb( 0, 3, 51);
 }
