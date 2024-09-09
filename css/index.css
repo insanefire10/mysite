@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: #91e2e18a;
+    background-color: #0d1117;
 	font-family: "Roboto", sans-serif;
     margin: 0px;
     padding: 0px;
@@ -22,9 +22,10 @@ body {
     background-color: #0d1117;
     color:rgb(235, 235, 235);
     height: 1000px;
-    font-size: 40px;
-    margin: 0px;
-    padding: 0px;
+    font-size: 160px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav {
