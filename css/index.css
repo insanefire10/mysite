@@ -5,7 +5,7 @@
 }
 
 html {
-	background-color: #bde9e88a;
+	background-color: #0d1117;
 	font-family: "Roboto", sans-serif;
     margin: 0px;
     padding: 0px;
@@ -13,20 +13,23 @@ html {
 
 body {
     background-color: #0d1117;
-	font-family: "Roboto", sans-serif;
-    margin: 0px;
-    padding: 0px;
-}
-
-.section1 {
-    background-color: #0d1117;
     color:rgb(235, 235, 235);
     height: 1000px;
     font-size: 160px;
-    max-width: fit-content;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
+
+.section1 {
+    text-align: center;
+}
+.section2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+
 
 nav {
     display: flex;
