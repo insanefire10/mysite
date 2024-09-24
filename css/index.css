@@ -46,11 +46,18 @@ nav h1 {
 
     font-size: 50px;
     color: rgba(251, 251, 251, 0.674);
-    padding-right: 30%;
+    padding-right: 0%;
     white-space: nowrap;
     
     
 }
+
+nav img {
+    padding-right: 30%;
+    padding-left: 1%;
+    max-height: 60px;
+}
+
 @media (max-width: 1000px) {
     nav {
        height: 140px;
@@ -58,7 +65,7 @@ nav h1 {
        flex-wrap: wrap;
 
     }
-    nav h1 {
+    nav img {
         padding-left: 0%;
         padding-right: 30%;
     }
